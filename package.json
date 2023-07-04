@@ -66,7 +66,8 @@
     "url-loader": "^4.1.1",
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "ts-node": "^10.9.1"
   },
   "dependencies": {
     "axios": "^1.4.0",
@@ -77,7 +78,6 @@
     "react-router": "^6.13.0",
     "react-router-dom": "^6.13.0",
     "styled-components": "5.3.3",
-    "styled-normalize": "^8.0.7",
-    "ts-node": "^10.9.1"
+    "styled-normalize": "^8.0.7"
   }
 }
