@@ -13,7 +13,10 @@
     "importHelpers": true,
     "noEmitHelpers": true,
     "sourceMap": true,
-    "typeRoots": ["./node_modules/@types", "./src/@types/*"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
     "alwaysStrict": true,
     "strict": false,
     "strictNullChecks": false,
@@ -40,8 +43,8 @@
     "baseUrl": ".",
     "paths": {
       "src/*": ["./src/*"]
-    }
+    },
   },
-  "include": ["**/*"],
+  "include": ["**/*", "node_modules/@types"],
   "exclude": ["node_modules"]
 }
