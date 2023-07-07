@@ -90,7 +90,7 @@ const config: Configuration & { devServer?: DevServerConfiguration } = {
         hot: true,
     },
     resolve: {
-        extensions: ['ts', 'tsx', '.js'],
+        extensions: ['.ts', '.tsx', '.js'],
         preferAbsolute: true,
         modules: ['node_modules'],
         mainFiles: ['index'],

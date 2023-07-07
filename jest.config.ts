@@ -1,9 +1,11 @@
-import type { Config } from 'jest';
 import { defaults } from 'jest-config';
 
-const config: Config = {
+const config = {
     verbose: true,
     moduleFileExtensions: [...defaults.moduleFileExtensions, 'mts'],
+    transform: {
+        '^.+\\.jsx?$': 'babel-jest',
+    },
 };
 
 export default config;
