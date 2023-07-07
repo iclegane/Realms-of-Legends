@@ -5,9 +5,9 @@
     [
       "@babel/preset-env",
       {
-        "modules": false,
+        "modules": "auto",
         "targets": {
-          "browsers": ["last 1 version", "ie 11"]
+          "node": "current"
         }
       }
     ]
